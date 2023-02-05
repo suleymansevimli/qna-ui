@@ -1,0 +1,88 @@
+/* MINIMAL CSS RESET BY DANI HERNANDEZ @dherrrnandez */
+
+:root {
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+input,
+button,
+optgroup,
+textarea,
+select,
+fieldset {
+    margin: 0;
+    border-width: 0;
+    overflow: visible;
+    font-family: inherit;
+    font-size: inherit;
+    text-transform: none;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    border-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+b,
+strong {
+    font-weight: bolder;
+}
+
+cite {
+    font-style: normal;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+    overflow-wrap: break-word;
+}
+
+ul,
+ol,
+dd {
+    list-style: none;
+}
+
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+[hidden] {
+    display: none;
+}
