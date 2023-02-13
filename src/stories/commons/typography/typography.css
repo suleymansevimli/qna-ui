@@ -1,0 +1,12 @@
+.typography-container {
+    display: grid;
+    grid-template-columns: 250px 50px 50px;
+    gap: 200px;
+    padding: 80px;
+}
+
+.heading, .code-ui-text, .paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

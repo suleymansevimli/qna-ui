@@ -1,0 +1,44 @@
+.colors-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, .5fr);
+    gap: 10px;
+}
+
+.color-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.color-container .color-title {
+    color: #000;
+}
+
+fieldset {
+    padding: 20px;
+}
+
+legend {
+    text-align: center !important;
+    margin: 0px 10px;
+}
+
+.colors {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.colors.dark {
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(4, .5fr);
+}
+
+.color {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    transition: all 300ms;
+    object-fit: cover;
+}

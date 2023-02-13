@@ -2,7 +2,9 @@ function App() {
 
   return (
    <div>
-      <p>Bu textin margini var mı</p>
+      <p style={{color: 'var(--r-500)'}}>
+        Hello ! 
+      </p>
    </div>
   )
 }

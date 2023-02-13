@@ -1,0 +1,228 @@
+@import './colors.scss';
+
+/*
+* Elevation
+*/
+
+.elevation-100 {
+    box-shadow: 0px 1px 1px #091e4240, 0px 0px 1px #091e424f;
+}
+
+.elevation-200 {
+    box-shadow: 0px 3px 5px #091e4233, 0px 0px 1px #091e424f;
+}
+
+.elevation-300 {
+    box-shadow: 0px 8px 12px #091e4226, 0px 0px 1px #091e424f;
+}
+
+.elevation-400 {
+    box-shadow: 0px 10px 18px #091e4226, 0px 0px 1px #091e424f;
+}
+
+.elevation-500 {
+    box-shadow: 0px 18px 28px #091e4226, 0px 0px 1px #091e424f;
+}
+
+
+/*
+* Typography
+*/
+
+/* Heading */
+
+/* h100 - 💡 Lowest level headings */
+.h-100 {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 16px;
+    color: var(--n-200);
+}
+
+
+/* h200 - 💡 Low level headings */
+.h-200 {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--n-200);
+}
+
+
+/* h300 - 💡 Heading up a group of list items */
+.h-300 {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--n-800);
+}
+
+
+/* h400 - 💡 Deep headings and for highlighting important pieces of information. */
+.h-400 {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--n-800);
+}
+
+
+/* h500 - 💡 Sub-section and field group headings. */
+.h-500 {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--n-800);
+}
+
+
+/* h600 - 💡 Headings that identify key functionality */
+.h-600 {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--n-800);
+}
+
+
+/* h700 - 💡 Main titles, use only once per page. */
+.h-700 {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--n-800);
+}
+
+
+/* h800 - 💡 Empty states and feature introductions. Top level headers. */
+.h-800 {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 29px;
+    line-height: 32px;
+    color: var(--n-800);
+}
+
+
+/* h900 - 💡 Oversized screen titles. Use in moderation. */
+.h-900 {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 40px;
+    color: var(--n-800);
+}
+
+
+
+/* 
+    💡 UI - Text 
+    For text that is a part of UI components only—this has a smaller line height.
+    Use Paragraph for other applications.
+*/
+.ui-text {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--n-800);
+}
+
+/* 
+    💡 Small
+    Use primarily on help text under form fields, and as secondary supporting text in applications. 
+    It should be used sparingly.
+*/
+.small {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 14px;
+    color: var(--n-200);
+}
+
+/* 💡 Code */
+.code {
+    font-family: 'SF Mono';
+    font-size: 12px;
+    line-height: 20px;
+    color: var(--n-800);
+}
+
+
+/* 💡 Pointer (Code) */
+.pointer {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px;
+    color: var(--n-800);
+}
+
+
+/* 
+    💡 Block quote 
+    Use with a quotation that is typically longer than a few lines. 
+    It will be indented to set it apart from surrounding text.
+*/
+.blockquote {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--n-200);
+}
+
+/* 
+    💡 Link
+    Use in the context of a paragraph—this has a larger line height. 
+    In UI components, use a Link Button instead.
+*/
+.link {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--b-400);
+    cursor: pointer;
+}
+
+.link:hover {
+    text-decoration-line: underline;
+}
+
+
+/* 
+    💡 Default Text
+   For longer-form text that is not a part of the UI. 
+   This has a larger line height and paragraph spacing.
+*/
+.default-text {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--n-800);
+}

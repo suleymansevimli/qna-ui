@@ -1,4 +1,4 @@
-/* MINIMAL CSS RESET BY DANI HERNANDEZ @dherrrnandez */
+@import './colors.scss';
 
 :root {
     font-synthesis: none;
@@ -24,8 +24,8 @@ input,
 button,
 optgroup,
 textarea,
-select,
-fieldset {
+select
+{
     margin: 0;
     border-width: 0;
     overflow: visible;

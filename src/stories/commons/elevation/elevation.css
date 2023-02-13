@@ -1,0 +1,15 @@
+
+.elevation-container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    gap: 50px;
+    place-content: center;
+    margin-top: 300px;
+}
+
+.elevation-card {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
